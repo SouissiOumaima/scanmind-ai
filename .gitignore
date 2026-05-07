@@ -1,0 +1,24 @@
+# Environnement virtuel
+.venv/
+
+# Modèles trop lourds pour GitHub (>100MB)
+*.h5
+*.keras/
+classifier_final.keras/
+autoencoder_final.keras/
+autoencoder_best.keras/
+best_phase1.keras/
+best_phase2.keras/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
